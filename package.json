@@ -1,0 +1,22 @@
+{
+  "name": "js-ts-linting-example",
+  "version": "1.0.0",
+  "description": "Demo project for setting up linting for JavaScript/TypeScript code.",
+  "scripts": {
+    "check-types": "npx tsc --noEmit",
+    "lint": "npx eslint 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "author": "Lynn",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.7.4"
+  }
+}
