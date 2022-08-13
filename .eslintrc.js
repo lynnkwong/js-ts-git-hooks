@@ -30,9 +30,9 @@ module.exports = {
   ],
   ignorePatterns: ['.eslintrc.js'],
   rules: {
-    // quotes: ["error", "double"],  // Use double quotes.
-    quotes: "off",
-    "@typescript-eslint/quotes": ["error", "double"],
+    // quotes: ["error", "double"],  // For JavaScript
+    quotes: "off",   // For TypeScript
+    "@typescript-eslint/quotes": ["error", "double"],  // For TypeScript
     semi: ["error", "always"],  // Always add a semicolon at the end statements.
     indent: ["error", 2],  // Indentation is two spaces.
     "no-console": "error"  // Avoid using methods on `console` in the code.

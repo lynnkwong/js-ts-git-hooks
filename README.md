@@ -1,2 +1,2 @@
-# Demo project for setting up linting for JavaScript/TypeScript code
-## Check [this Medium post](https://medium.com/p/1170bbdff32b) for the details.
+# Demo project for adding linting Git Hooks for JavaScript/TypeScript projects
+## Check [this Medium post](https://medium.com/p/b04de61834bd) for the details.
